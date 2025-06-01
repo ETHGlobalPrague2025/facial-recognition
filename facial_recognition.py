@@ -61,7 +61,7 @@ def print_known_faces():
     print("================")
 
 # Start webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 if not cap.isOpened():
     print("❌ Unable to open webcam.")
